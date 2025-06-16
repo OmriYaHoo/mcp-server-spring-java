@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "dummy-user-server": {
+    "graphql-demo-server": {
       "command": "java",
       "args": [
         "--enable-native-access=ALL-UNNAMED",

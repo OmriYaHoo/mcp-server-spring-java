@@ -15,7 +15,7 @@ import java.util.Map;
 public class GraphQLService {
 
     private final RestTemplate restTemplate;
-    private final String BASE_URL = "http://192.168.0.50:9001";
+    private final String BASE_URL = "http://localhost:9001";
 
     public GraphQLService(RestTemplateBuilder restTemplateBuilder) {
         this.restTemplate = restTemplateBuilder.build();

@@ -6,7 +6,7 @@ spring:
   ai:
     mcp:
       server:
-        name: my-dummy-users-server
+        name: graphql-demo-server
         version: 0.0.1
         type: SYNC
         stdio: true
